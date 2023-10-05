@@ -1,4 +1,4 @@
-package seminar01;
+package seminar01.Test;
 
 //Задание 1. ** В классе Calculator создайте метод calculateDiscount,
 // который принимает сумму покупки и процент скидки и возвращает сумму
@@ -7,12 +7,15 @@ package seminar01;
 // исключение ArithmeticException. Не забудьте написать тесты для проверки этого поведения.
 
 
+import org.assertj.core.api.Assertions;
+import seminar01.Calculator;
+
 import static org.assertj.core.api.Assertions.*;
 
 public class CalculatorTest {
     public static void main(String[] args) {
 
-        assertThat(Calculator.calculateDiscount(100, 5)).isEqualTo(95);
+        Assertions.assertThat(Calculator.calculateDiscount(100, 5)).isEqualTo(95);
 
         assertThatThrownBy( () -> Calculator.calculateDiscount(0, 5))
                 .isInstanceOf(ArithmeticException.class);
