@@ -104,7 +104,7 @@ public class CalculatorTest {
     }
 
     @Test
-    void getOperandCompletesCorrectlyWithNumbers() {
+    public void getOperandCompletesCorrectlyWithNumbers() {
         String testedValue = "9"; // Значение для тестов
         ByteArrayInputStream in = new
                 ByteArrayInputStream(testedValue.getBytes());
@@ -115,7 +115,7 @@ public class CalculatorTest {
         System.setIn(inputStream); // Подменяем обратно
     }
     @Test
-    void getOperandCompletesCorrectlyWithNotNumbers() {
+    public void getOperandCompletesCorrectlyWithNotNumbers() {
         String testedValue = "k";
         ByteArrayInputStream in = new
                 ByteArrayInputStream(testedValue.getBytes());
