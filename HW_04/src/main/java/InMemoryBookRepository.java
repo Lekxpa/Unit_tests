@@ -15,11 +15,13 @@ public class InMemoryBookRepository implements BookRepository  {
 
     @Override
     public Book findById(String id) {
+
         return books.get(id);
     }
 
     @Override
     public List<Book> findAll() {
+
         return new ArrayList<>(books.values());
     }
 }
