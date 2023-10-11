@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 import static org.assertj.core.api.Assertions.*;
 
-
 public class BookServiceTest {
     /*
     У вас есть класс BookService, который использует интерфейс BookRepository

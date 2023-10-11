@@ -6,7 +6,6 @@ import java.util.Map;
 
 public class InMemoryBookRepository implements BookRepository  {
     private final Map<String, Book> books;
-
     public InMemoryBookRepository() {
         this.books = new HashMap<>();
         books.put("1", new Book("1", "Book1", "Author1"));
