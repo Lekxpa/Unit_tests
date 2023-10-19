@@ -6,18 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="seminar04" />
+        <module name="HW_02 (4)" />
         <module name="src (1)" />
         <module name="src (2)" />
+        <module name="HW_005" />
+        <module name="HW_5" />
         <module name="HW_04 (2)" />
         <module name="HW_02 (2)" />
+        <module name="HW_02 (3)" />
+        <module name="HW_04 (1)" />
         <module name="HW_02 (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HW_02" target="19" />
+      <module name="HW_02 (5)" target="19" />
       <module name="HW_04" target="19" />
+      <module name="HW_05" target="19" />
       <module name="HW_4" target="19" />
+      <module name="seminar04" target="19" />
       <module name="src" target="19" />
     </bytecodeTargetLevel>
   </component>

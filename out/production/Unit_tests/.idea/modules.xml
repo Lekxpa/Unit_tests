@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HW_03.iml" filepath="$PROJECT_DIR$/HW_03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HW_04.iml" filepath="$PROJECT_DIR$/HW_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_06.iml" filepath="$PROJECT_DIR$/HW_06.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Unit_tests.iml" filepath="$PROJECT_DIR$/.idea/Unit_tests.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seminar02.iml" filepath="$PROJECT_DIR$/seminar02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seminar04.iml" filepath="$PROJECT_DIR$/seminar04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src.iml" filepath="$PROJECT_DIR$/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar05.iml" filepath="$PROJECT_DIR$/seminar05.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
